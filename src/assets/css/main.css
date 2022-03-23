@@ -122,7 +122,7 @@ html, body{
 .home-icon h5{
     font-size: 25px;
     color: #051b73;
-    /* color: #000d42; */
+    /* color: #3737CE; */
     padding: 12px 0 0;
 }
 
@@ -148,7 +148,7 @@ html, body{
     padding: 58px 0 13px;
 }
 .pro-discription h3 {
-    color: #000d42;
+    color: #3737CE;
     font-size: 30px;
     line-height: 24px;
     font-weight: 600;
@@ -165,7 +165,7 @@ html, body{
     line-height: 22px;
     color: black;
     margin: 0;
-    color: #3D00A0;
+    color: #3737CE;
     font-size: 27px;
     word-spacing: 5px;
     font-weight: 600;
@@ -359,7 +359,7 @@ html, body{
     background-color: white!important;
 }
 .text-theme-colored{
-    color: #3D00A0;
+    color: #3737CE;
 }
 .list-icon li {
     font-size: 16.8px;
@@ -380,7 +380,7 @@ html, body{
   }
   .home-box-shedow {
     margin: 15px 0 2px 0;
-    background: #3D00A0;
+    background: #3737CE;
     padding: 12px 12px 8px 12px;
 
   }
@@ -394,7 +394,7 @@ html, body{
 .btn-salogn{
     background: white;
     border: white;
-    color: #3D00A0;
+    color: #3737CE;
     padding: 6px 16px;
     text-transform: capitalize;
 }
@@ -405,7 +405,7 @@ html, body{
     text-transform: capitalize;
 }
 .list-icon.square li i {
-    background: #3D00A0;
+    background: #3737CE;
     color: #555555;
     font-size: 12px;
     height: 28px;
@@ -434,8 +434,8 @@ html, body{
 }
 .btn-theme-colored {
     font-weight: 500!important;
-    background: #3D00A0;
-    border: #3D00A0;
+    background: #3737CE;
+    border: #3737CE;
     /* background-image: -webkit-linear-gradient( 
 0deg, rgb(13,34,52) 0%, rgb(13,77,132) 100%)!important;
     color: white; */
@@ -481,7 +481,7 @@ html, body{
     font-family: sans-serif;
 }
 /* .slogan-area-vivid {
-    background: #3D00A0;
+    background: #3737CE;
     text-align: center;
     padding: 23px 0 23px 0;
 } */
@@ -492,7 +492,7 @@ html, body{
     color: white;
 }
 .offers-section{
-    background: #3D00A0;
+    background: #3737CE;
     text-align: center;
     padding: 23px 0 23px 0;
 }
@@ -565,7 +565,7 @@ html, body{
     text-align: center;
 }
 .new-about-bg{
-    background: #000d42;
+    background: #3737CE;
 }
 .home-product-card .col-sm-4{
     padding: 0 22px;
@@ -589,7 +589,7 @@ html, body{
 }
 .phone-about i{
     font-size: 40px;
-    color: #3D00A0;
+    color: #3737CE;
 }
 
 .ab-bg p {
@@ -744,7 +744,7 @@ html, body{
         font-weight: 700;
     }
     .pro-discription h3 {
-        color: #000d42;
+        color: #3737CE;
     }
     .pro-discription p {
         font-size: 14px;
@@ -784,4 +784,15 @@ html, body{
 .top-header .social-icons{
     text-align: end;
 
+}
+
+.blogs-section .home-tab-product-card {
+    height: 393px;
+    padding: 0;
+}
+.blogs-section .home-tab-product-card img {
+    height: 214px;
+}
+.blog-text{
+    padding: 13px 33px;
 }

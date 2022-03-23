@@ -1,27 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Image } from 'react-bootstrap';
 import Slider from "react-slick";
-import banner1 from "../../assets/images/banner/slider1.jpg";
-import banner2 from "../../assets/images/banner/slider11.jpg";
-import banner3 from "../../assets/images/banner/slider3.jpg";
+import banner2 from "../../assets/images/banner/banner13.jpg";
+import banner1 from "../../assets/images/banner/banner1.jpg";
 import "./banner.css";
 import axios from 'axios';
+// y
+
 
 export default function Banner() {
-  // const [banner, setBanner] = useState([]);
-  // useEffect(() => {
-  // fetchBanner();
-  // }, []);
-  // const fetchBanner = () => {
-  // axios
-  //     .get('/api/ga/banners')
-  //     .then((res) => {
-  //     setBanner(res.data.data);
-  //     })
-  //     .catch((err) => {
-  //     console.log(err);
-  //     });
-  // };
+
   const settings = {
     dots: false,
     autoplay: true,
@@ -33,18 +21,10 @@ export default function Banner() {
   };
   return (
     <>
-    <section className="main-slider ">
-        {/* <Slider {...settings}>
-                    {banner.map((image) => (
-                        <div className="banner-slider" key={image.id}>
-                            <div className="banner-img">
-                               <img src={'http://127.0.0.1:8000/'+image.thumb} alt='greenAqua' />
-                             </div>
-                        </div>
-                        ))}
-          </Slider> */}
-          <Slider {...settings}>
-            {/* <div className="banner-slider">
+      <section className="main-slider ">
+
+        <Slider {...settings}>
+          {/* <div className="banner-slider">
               <div className="banner-img">
                 <img src="https://www.recipharm.com/sites/recipharm-corp/files/recipharm/drug-delivery-devices/injection-devices/injection-devices.jpg" className="img-fluid" alt="images" />
               </div>          
@@ -54,14 +34,84 @@ export default function Banner() {
                 <img src="https://www.shl-medical.com/wp-content/uploads/2020/09/2020-PODD-NewsPage.jpg" className="img-fluid" alt="sap" />
               </div>
             </div> */}
-        
             <div className="banner-slider">
-              <div className="banner-img">
-                <img src={banner2} className="img-fluid" alt="sap" />
+            <div className="item">
+            <img src={banner1} className="img-fluid" alt="sap" />
+              <div className="cover">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="header-content">
+                        <h2>Auto Injectors, Pen Injectors and Inhaler Systems</h2>
+                        <h4>Vivid is a world-leading solution provider in design, development, and manufacturing of advanced drug delivery systems.</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+
+          <div className="banner-slider">
+            <div className="item">
+              <img src={banner2} className="img-fluid" alt="sap" />
+              <div className="cover">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="header-content">
+                        <h2>Auto Injectors, Pen Injectors and Inhaler Systems</h2>
+                        <h4>Vivid is a world-leading solution provider in design, development, and manufacturing of advanced drug delivery systems.</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
         </Slider>
       </section>
+
+      {/* 
+      <OwlCarousel className='owl-theme' loop margin={10} nav>
+    <div className='item'>
+        <h4>1</h4>
+    </div>
+    <div className='item'>
+        <h4>2</h4>
+    </div>
+    <div class='item'>
+        <h4>3</h4>
+    </div>
+    <div class='item'>
+        <h4>4</h4>
+    </div>
+    <div class='item'>
+        <h4>5</h4>
+    </div>
+    <div class='item'>
+        <h4>6</h4>
+    </div>
+    <div class='item'>
+        <h4>7</h4>
+    </div>
+    <div class='item'>
+        <h4>8</h4>
+    </div>
+    <div class='item'>
+        <h4>9</h4>
+    </div>
+    <div class='item'>
+        <h4>10</h4>
+    </div>
+    <div class='item'>
+        <h4>11</h4>
+    </div>
+    <div class='item'>
+        <h4>12</h4>
+    </div>
+</OwlCarousel>; */}
     </>
   );
 }

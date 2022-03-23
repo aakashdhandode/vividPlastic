@@ -108,7 +108,7 @@ export default function Home() {
             </div>
         </Container>
         </section> */}
-        {/* <section className='pt-3 pb-3'>
+            {/* <section className='pt-3 pb-3'>
                 <Container className='s-boxx'>
                     <Row>
                         <Col sm={4}>
@@ -158,17 +158,17 @@ export default function Home() {
                 <Container>
                     <Row>
                         <Col sm={6}>
-                        <Image  src='https://img.freepik.com/free-photo/happy-co-workers-close-window_1098-3172.jpg?t=st=1648017690~exp=1648018290~hmac=4251e845b1f63d8114df1984d30e7145c7b01324f740e371bf2b38e4ea79640e&w=900' className='about-imgg'/>
+                            <Image src='https://img.freepik.com/free-photo/happy-co-workers-close-window_1098-3172.jpg?t=st=1648017690~exp=1648018290~hmac=4251e845b1f63d8114df1984d30e7145c7b01324f740e371bf2b38e4ea79640e&w=900' className='about-imgg' />
                         </Col>
                         <Col sm={6}>
-                        <div className='offers-containt'>
-                            <h3>Welcome to Vivid Plastic Pvt Ltd</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veniam voluptates fugit, aperiam, laborum nulla quisquam vitae modi blanditiis minus fugiat labore voluptate perspiciatis rerum? Aliquid maxime voluptas totam eum.
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eius deleniti omnis labore repellat autem explicabo officia. Doloribus incidunt aut eaque quia repellendus unde necessitatibus facere, qui est ullam repudiandae?
-                           <br/> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore totam delectus ea aut optio vitae hic distinctio obcaecati fugit modi, ratione quo a dolorum quod? Consequuntur recusandae qui ex iste?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat culpa ut dicta beatae ducimus blanditiis,<br/> voluptas odit, quibusdam praesentium inventore veniam nostrum amet totam. Voluptatum laborum blanditiis porro est.
-                            </p>
-                            <hr />
+                            <div className='offers-containt'>
+                                <h3>Welcome to Vivid Plastic Pvt Ltd</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veniam voluptates fugit, aperiam, laborum nulla quisquam vitae modi blanditiis minus fugiat labore voluptate perspiciatis rerum? Aliquid maxime voluptas totam eum.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eius deleniti omnis labore repellat autem explicabo officia. Doloribus incidunt aut eaque quia repellendus unde necessitatibus facere, qui est ullam repudiandae?
+                                    <br /> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore totam delectus ea aut optio vitae hic distinctio obcaecati fugit modi, ratione quo a dolorum quod? Consequuntur recusandae qui ex iste?
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat culpa ut dicta beatae ducimus blanditiis,<br /> voluptas odit, quibusdam praesentium inventore veniam nostrum amet totam. Voluptatum laborum blanditiis porro est.
+                                </p>
+                                <hr />
                                 <div className=''>
                                     <Row>
                                         <Col sm={1} xs={2} className="phone-about">
@@ -181,7 +181,7 @@ export default function Home() {
                                         </Col>
                                     </Row>
                                 </div>
-                        </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -204,7 +204,7 @@ export default function Home() {
                     <Row>
                         <Col sm={12}>
                             <div className='offers-vivid'>
-                            <h2>The Vivid Platics is a one stop solution for a wide range of plastics items Manufacture Company.</h2>
+                                <h2>The Vivid Platics is a one stop solution for a wide range of plastics items Manufacture Company.</h2>
                                 <Button className='btn btn-salogn'>Request A Quote</Button>
                             </div>
                         </Col>
@@ -304,15 +304,69 @@ export default function Home() {
                     </Row>
 
                     <div className='text-center mt-3 mb-3'>
-             <Link to="/clients" className='more-client-btn'>
-             See More</Link>
-          </div>
+                        <Link to="/clients" className='more-client-btn'>
+                            See More</Link>
+                    </div>
                 </Container>
             </section>
             {/* end our product tabs section */}
 
             <ClientSlider />
-            <ContactForm />
+
+            <section className='blogs-section pt-4 pb-4'>
+                <Container>
+                    <div className='section-title text-center'>
+                        <h1>Read Latest Updates</h1>
+                        <p> With Esteemed Quality certifications from Water Quality and focus on Safety
+                            and Environment MAnagement Systems, vivid plastic is committed to maintain the highest
+                            standards for Health, Saftey and Environment.</p>
+                    </div>
+                    <Row>
+                        <Col sm={4}>
+                            <Link to="/">
+                                <div className="home-tab-product-card">
+                                    <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                                    <div className="blog-text">
+                                        <h3>Lights winged seasons fish abundantly evening.</h3>
+                                        <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                            Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                        <Link>Read More...</Link>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col sm={4}>
+                            <Link to="/">
+                                <div className="home-tab-product-card">
+                                    <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                                    <div className="blog-text">
+                                        <h3>Lights winged seasons fish abundantly evening.</h3>
+                                        <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                            Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                        <Link>Read More...</Link>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                        <Col sm={4}>
+                            <Link to="/">
+                                <div className="home-tab-product-card">
+                                    <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                                    <div className="blog-text">
+                                        <h3>Lights winged seasons fish abundantly evening.</h3>
+                                        <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                            Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                        <Link>Read More...</Link>
+                                    </div>
+                                </div>
+                            </Link>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
+
+            {/* <ContactForm /> */}
 
 
 

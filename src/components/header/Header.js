@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Navbar, Nav, Col, Row, Image, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav, Col, Row, Image, NavDropdown, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
 import "./header.css";
@@ -250,9 +250,10 @@ export default function Header() {
               </Nav.Item>
           </Nav>
           <Nav>
-            <Nav.Link eventKey={2} href="#memes" className='header-button text-white'>
+            {/* <Nav.Link eventKey={2} href="#memes" className='header-button'>
               Request A Quote
-            </Nav.Link>
+            </Nav.Link> */}
+            <button className='btn btn-header'>Request A Quote</button>
           </Nav>
         </Navbar.Collapse>
         </Container>
