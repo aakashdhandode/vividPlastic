@@ -1,6 +1,7 @@
 .clients-bg{
-    background: rgb(211 211 211 / 61%);
-    padding: 14px 0 24px;
+    background: rgb(245 245 245);
+    padding: 23px 0 16px;
+
 }
 .clentslogo-card{
     border-radius: 4px;
@@ -19,12 +20,10 @@
 .more-client-btn{
     color: white;
     padding: 9px 42px;
-    background: #3D00A0;
+    background: #e11d07;
 }
 .client-slider .slick-slide {
-    
-        padding: 0 7px;
-     
+            padding: 0 7px;
     }
 
 

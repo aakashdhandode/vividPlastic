@@ -52,7 +52,7 @@ export default function Banner() {
             </div>
           </div>
 
-          <div className="banner-slider">
+          {/* <div className="banner-slider">
             <div className="item">
               <img src={banner2} className="img-fluid" alt="sap" />
               <div className="cover">
@@ -68,7 +68,7 @@ export default function Banner() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
          
         </Slider>
       </section>

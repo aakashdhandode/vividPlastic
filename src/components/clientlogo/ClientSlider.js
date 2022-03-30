@@ -61,11 +61,14 @@ function ClientSlider() {
     ]
   };
   return (
-    <div className='mt-5'>
+    <div>
     <section className='clients-bg client-slider'>
        <Container>
-       <div className="section-title text-center"><h1>Our Partners</h1><p> With Esteemed Quality certifications from Water Quality and focus on Safety and Environment MAnagement Systems, vivid is
-        committed to maintain the highest standards for Health, Saftey and Environment.</p></div>
+       <div className="section-title text-center">
+       <h1>Our Partners</h1>
+       <p> With Esteemed Quality certifications from Water Quality and focus on Safety and Environment MAnagement Systems, vivid is
+        committed to maintain the highest standards for Health, Saftey and Environment.</p>
+        </div>
           <Slider {...settings}>
               {/* <OurClient 
                 img={Brouchersimg}

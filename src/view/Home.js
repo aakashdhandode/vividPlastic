@@ -13,6 +13,10 @@ import ClientSlider from '../components/clientlogo/ClientSlider';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'react-router-dom';
 import { FiPhoneCall } from "react-icons/fi";
+import ProductSlider from '../components/product/ProductSlider';
+import AOS from 'aos';
+import BlogSlider from '../components/BlogSlider';
+AOS.init();
 // import Popup from '../components/Popup';
 
 export default function Home() {
@@ -22,295 +26,223 @@ export default function Home() {
             {/* <Popup /> */}
 
 
-
-            {/* home page welcome section */}
-            {/* <section className='new-about-bg'>
-        <Container fluid>
-            <Row>
-                <Col sm={6} className='wlcome-img-padding'>
-                <img src={homeabout} className="img-fluid" alt="greenaqua" />
-                </Col>
-                <Col sm={6}>
-                <div className="offers-containt">
-                    <h3>Welcome to vivid plastic Enviro Projects Private Limited, Hyderabad, India.</h3>
-                    <p>Welcome to vivid plastic Enviro Projects Private Limited, Hyderabad, India. vivid plastic is one of the leading 
-                    specialist in water treatment industry operate in the Designing, manufacturing, supply,
-                    erection and commissioning of water and waste water treatment plants. At vivid plastic,
-                    we are uniquely positioned to offer our clients one stop &amp; integrated solutions for 
-                    household, institutional, commercial, industrial by leveraging our expertise across various
-                    technologies to cater the needs of domestic, commercial and industrial requirements.
-                    </p>
-                    <p>By Integrating process thechnolgy, design engineering and project management capabilites,
-                    we take end-to-end responsibility in planning, sourcing, integrating and managing water &amp; 
-                    waste water plants, thus providing customers with total systems solutions with a long term commitment
-                    for quality and service.
-                    </p>
-                </div>
-                </Col>
-            </Row>
-        </Container>
-        </section> */}
-            {/* home page welcome section end */}
-
-            {/* Our product tabs section  */}
-            {/* <section className='pt-4'>
-        <Container>
-            <div className='section-title text-center'>
-                <h1>Our Products</h1>
-                <p> With Esteemed Quality certifications from Water Quality and focus on Safety and Environment MAnagement Systems, vivid plastic is committed to maintain the highest standards for Health, Saftey and Environment.</p>
-            </div>
-            <div className='products-tabs'>
-                <Tabs defaultActiveKey="tabone" id="uncontrolled-tab-example" className="mb-3">
-                    <Tab eventKey="tabone" title="Wastewater Treatment">
-                    <Row>
-                        <Col sm={3}>
-                        <ProductCat 
-                            img={Productone}
-                            title="Sewage Water Treatment Plants"
-                            description="vivid plastic engaged in manufacturing, supplying and distributing Water RO Purifiers and Home 
-                            Softeners for Residential and Small Business users."
-                            more="More.."
-                            />
-                        </Col>
-                    </Row>
-                    </Tab>
-                    <Tab eventKey="tabtwo" title="Wastewater Treatment">
-                    <Row>
-                        <Col sm={3}>
-                        <ProductCat
-                            img={Productone}
-                            title="Industrial Reverse Osmosis Plant"
-                            description="vivid plastic engaged in manufacturing, supplying and distributing Water RO Purifiers and Home 
-                            Softeners for Residential and Small Business users."
-                            more="More.."
-                            />
-                        </Col>
-                    </Row>
-                    </Tab>
-                    <Tab eventKey="tabthree" title="Water Vending Machine">
-                    <Row>
-                        <Col sm={3}>
-                        <ProductCat 
-                            img={Productone}
-                            title="Industrial Reverse Osmosis Plant"
-                            description="vivid plastic engaged in manufacturing, supplying and distributing Water RO Purifiers and Home 
-                            Softeners for Residential and Small Business users."
-                            more="More.."
-                            />
-                        </Col>
-                    </Row>
-                    </Tab>
-                    <Tab eventKey="tabfour" title="Domestic & Industrial">
-                    </Tab>
-                    <Tab eventKey="tabfive" title="Drinking Water Solutions">
-                    </Tab>
-                </Tabs>
-            </div>
-        </Container>
-        </section> */}
-            {/* <section className='pt-3 pb-3'>
-                <Container className='s-boxx'>
-                    <Row>
-                        <Col sm={4}>
-                            <div className='home-box-shedow'>
-                                <Row>
-                                    <Col sm={4} xs={3}>
-                                        <Image src={require('../assets/images/w1.png')} alt="web" className='img-fluid' />
-                                    </Col>
-                                    <Col sm={8} xs={9}>
-                                        <h5>Trusted Services</h5>
-                                        <p> It is a long established fact that a reader will be distracted by the.</p>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                        <Col sm={4}>
-                            <div className='home-box-shedow'>
-                                <Row>
-                                    <Col sm={4} xs={3}>
-                                        <Image src={require('../assets/images/w2.png')} alt="web" className='img-fluid' />
-                                    </Col>
-                                    <Col sm={8} xs={9}>
-                                        <h5>24/7 Support</h5>
-                                        <p> It is a long established fact that a reader will be distracted by the.</p>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                        <Col sm={4}>
-                            <div className='home-box-shedow'>
-                                <Row>
-                                    <Col sm={4} xs={3}>
-                                        <Image src={require('../assets/images/w3.png')} alt="web" className='img-fluid' />
-                                    </Col>
-                                    <Col sm={8} xs={9}>
-                                        <h5>Expert & Professional</h5>
-                                        <p> It is a long established fact that a reader will be distracted by the.</p>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section> */}
-
-            <section className='about-section-page'>
+            <section class="gray-bg small-padding half-bg_dec">
+                <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
                 <Container>
                     <Row>
                         <Col sm={6}>
-                            <Image src='https://img.freepik.com/free-photo/happy-co-workers-close-window_1098-3172.jpg?t=st=1648017690~exp=1648018290~hmac=4251e845b1f63d8114df1984d30e7145c7b01324f740e371bf2b38e4ea79640e&w=900' className='about-imgg' />
-                        </Col>
-                        <Col sm={6}>
-                            <div className='offers-containt'>
-                                <h3>Welcome to Vivid Plastic Pvt Ltd</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veniam voluptates fugit, aperiam, laborum nulla quisquam vitae modi blanditiis minus fugiat labore voluptate perspiciatis rerum? Aliquid maxime voluptas totam eum.
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eius deleniti omnis labore repellat autem explicabo officia. Doloribus incidunt aut eaque quia repellendus unde necessitatibus facere, qui est ullam repudiandae?
-                                    <br /> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore totam delectus ea aut optio vitae hic distinctio obcaecati fugit modi, ratione quo a dolorum quod? Consequuntur recusandae qui ex iste?
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat culpa ut dicta beatae ducimus blanditiis,<br /> voluptas odit, quibusdam praesentium inventore veniam nostrum amet totam. Voluptatum laborum blanditiis porro est.
-                                </p>
-                                <hr />
-                                <div className=''>
-                                    <Row>
-                                        <Col sm={1} xs={2} className="phone-about">
-                                            {/* <Image src='' alt="web" className='img-fluid phone-img' /> */}
-                                            <i><FiPhoneCall /></i>
-                                        </Col>
-                                        <Col sm={9} xs={10}>
-                                            <p className='m-0 phone-text'>Need a service & ready to book? Call us</p>
-                                            <h2 className='c-number'>Phone : <span> +91 12345 67890</span></h2>
-                                        </Col>
-                                    </Row>
-                                </div>
+                            <div class="section-title-what">
+                                <h4>What We Do</h4>
+                                <h2>We Offer Smarter &amp; More Affordable Access To <br /> Construction Services and Equipment. <br /> We Are TheRoof.</h2>
                             </div>
                         </Col>
+                        <Col sm={1}></Col>
+                        <Col sm={5} >
+                            <p>Aiusmod tempor incididunt ut labore sed dolore magna aliquay dnim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehen deritin voluptate.</p>
+                            <p>Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Curabitur convallis fringilla diam sed aliquam.</p>
+                        </Col>
+                        <div class="cards-wrap fl-wrap">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="content-inner fl-wrap">
+                                        <div class="content-front">
+                                            <div class="cf-inner">
+                                                <div class="inner">
+                                                    <div class="dec-icon">
+                                                        <i class="fal fa-truck-plow"></i>
+                                                    </div>
+                                                    <h2> Drug Delivery Solutions</h2>
+                                                    <p>Advanced disposable and reusable self-injection devices  with
+                                                        variable dosing
+                                                        and the ability to accommodate high-volume formulations.</p>
+                                                </div>
+                                                <div class="serv-num">01.</div>
+                                            </div>
+                                        </div>
+                                        <div class="content-back">
+                                            <div class="card-back-one card-back-main"></div>
+                                            <div class="overlay"></div>
+                                            <div class="inner">
+                                                <span class="cf-inner_title color-bg">Read more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="content-inner fl-wrap">
+                                        <div class="content-front">
+                                            <div class="cf-inner">
+                                                <div class="inner">
+                                                    <div class="dec-icon">
+                                                        <i class="fal fa-pencil-ruler"></i>
+                                                    </div>
+                                                    <h2>Medtech & Industrial</h2>
+                                                    <p>Contract manufacturing and engineering services for the production of complex medtech and industrial products.</p>
+                                                </div>
+                                                <div class="serv-num">02.</div>
+                                            </div>
+                                        </div>
+                                        <div class="content-back">
+                                            <div class="card-back-two card-back-main"></div>
+                                            <div class="overlay"></div>
+                                            <div class="inner">
+                                                <span class="cf-inner_title color-bg">Read more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="content-inner fl-wrap">
+                                        <div class="content-front">
+                                            <div class="cf-inner">
+                                                <div class="inner">
+                                                    <div class="dec-icon">
+                                                        <i class="fal fa-tools"></i>
+                                                    </div>
+                                                    <h2>Join vivid plastic</h2>
+                                                    <p>vivid is a unique place to start an exciting career. An inclusive company, we value diversity in our workforce and the wealth of ideas it brings.</p>
+                                                </div>
+                                                <div class="serv-num">03.</div>
+                                            </div>
+                                        </div>
+                                        <div class="content-back">
+                                            <div class="card-back-tree card-back-main"></div>
+                                            <div class="overlay"></div>
+                                            <div class="inner">
+                                                <span class="cf-inner_title color-bg">Read more</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </Row>
                 </Container>
             </section>
 
-            {/* <section className="slogan-area-vivid">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="slogan">
-                                <h2>The Vivid Platics is a one stop solution for a wide range of plastics items Manufacture Company.</h2>
-                                <Button className='btn btn-salogn'>Request A Quote</Button>
-                            </div>
-                        </div>
-                    </div>     
-                </div>
-            </section> */}
             <section className='offers-section'>
                 <Container>
                     <Row>
-                        <Col sm={12}>
+                        <Col sm={10}>
                             <div className='offers-vivid'>
                                 <h2>The Vivid Platics is a one stop solution for a wide range of plastics items Manufacture Company.</h2>
-                                <Button className='btn btn-salogn'>Request A Quote</Button>
+
                             </div>
                         </Col>
+                        <Col sm={2} className="text-end-btn">
+                            <Button className='btn btn-salogn'>Request A Quote</Button>
+                        </Col>
                     </Row>
                 </Container>
             </section>
 
-            <section className='pt-4'>
-                <Container>
-                    <div className='section-title text-center'>
-                        <h1>Our Products</h1>
-                        <p> With Esteemed Quality certifications from Water Quality and focus on Safety
-                            and Environment MAnagement Systems, vivid plastic is committed to maintain the highest
-                            standards for Health, Saftey and Environment.</p>
+            <section className='home-ab-section home-page'>
+                {/* <div class="sq-secdec"></div> */}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="about-title fl-wrap">
+                                <h4>Our Story</h4>
+                                <h2 class="con-heading">Who we are</h2>
+                            </div>
+                            <div class="about-wrap">
+                                <p>Aliquam luctus tempor orci sit amet finibus. Duis porttitor, ex ac molestie consectetur, metus tellus venenatis velit, et interdum enim lorem a purus. Fusce scelerisque, massa vitae rhoncus elementum, enim acinia pharetra? </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim. Proin eu ultrices libero. </p>
+                                <a href="about.html" class="btn float-btn"><i class="fas fa-caret-right"></i><span>Read More About Us</span></a>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-6">
+                            <div class="about-img fl-wrap">
+                                {/* <img src="file:///D:/xampp/htdocs/help/images/folio/6.jpg" class="respimg" alt="" /> */}
+                                <Image src="https://img.healthcarepackaging.com/files/base/pmmi/all/image/2014/07/hp_26149_gerrisheimer1.png?auto=format%2Ccompress&q=70&w=700" className='about-imgg' />
+                                <div class="about-img-title ait_2 color-bg">Vivid Plastic</div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+
+            </section>
+
+           <section class="gray-bg  ">
+                <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+                <div class="hex-bg hex-bg2"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>                <Container>
                     <Row>
-                        {/* <Col sm={3}>
-                            <Link to="/ProductDetails">
-                                <div className="home-tab-product-card">
-                                    <Image src={require('../assets/images/products/pro1.jpg')} className="img-fluid" />
-                                    <h3>BUCKETS</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
+                        <Col sm={4}>
+                            <div class="section-title-why align-text">
+                                <h4>What said about us</h4>
+                                <h2>Why Choose Us</h2>
+                                <div class="st-text fl-wrap">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim. Proin eu ultrices libero.</p>
                                 </div>
-                            </Link>
+                            </div>
                         </Col>
-                        <Col sm={3}>
-                            <Link to="/ProductDetails">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://uniriostores.com/wp-content/uploads/2021/08/3-46.jpeg' className="img-fluid" />
-                                    <h3>INSULATED BOTTLES</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
+                        <Col sm={8}>
+                            <Row>
+                                <div class="col-md-6">
+                                    <div class="card-item fl-wrap">
+                                        <i class="fal fa-wind-turbine"></i>
+                                        <span class="card-item_num">01.</span>
+                                        <h4>Green Energy</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                    </div>
                                 </div>
-                            </Link>
-                        </Col>
-                        <Col sm={3}>
-                            <Link to="/ProductDetails">
-                                <div className="home-tab-product-card">
-                                    <Image src={require('../assets/images/products/pro3.png')} className="img-fluid" />
-                                    <h3>TIFINS</h3>
-                                    <p>Vivid bottles are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col sm={3}>
-                            <Link to="/ProductDetails">
-                                <div className="home-tab-product-card">
-                                    <Image src={require('../assets/images/products/pro4.png')} className="img-fluid" />
-                                    <h3>INSULATED CASSEROLES</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
-                                </div>
-                            </Link>
-                        </Col> */}
-                        <Col sm={3}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://vcahospitals.com/-/media/2/VCA/Images/LifeLearn-Images-Foldered/594/Syringe.ashx' className="img-fluid" />
-                                    <h3>INSULIN</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col sm={3}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://us.123rf.com/450wm/wihtgod/wihtgod1112/wihtgod111200038/11564948-dropping-bottles-hang-on-hooks-closeup-shot.jpg?ver=6' className="img-fluid" />
-                                    <h3>INSULIN</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col sm={3}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://vcahospitals.com/-/media/2/VCA/Images/LifeLearn-Images-Foldered/594/Syringe.ashx' className="img-fluid" />
-                                    <h3>INSULIN</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col sm={3}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://us.123rf.com/450wm/wihtgod/wihtgod1112/wihtgod111200038/11564948-dropping-bottles-hang-on-hooks-closeup-shot.jpg?ver=6' className="img-fluid" />
-                                    <h3>INSULIN</h3>
-                                    <p>Vivid Buckets are no ordinary buckets. They are made from high-grade
-                                        durable plastic compounds that deliver the strongest buckets of its kind in the industry.</p>
-                                </div>
-                            </Link>
+                                <Col sm={6}>
+                                    <div class="card-item fl-wrap">
+                                        <i class="fal fa-microchip"></i>
+                                        <span class="card-item_num">02.</span>
+                                        <h4>New Technology</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                                    </div>
+                                </Col>
+                                <Col sm={6}>
+                                    <div class="card-item fl-wrap">
+                                        <i class="fal fa-tools"></i>
+                                        <span class="card-item_num">03.</span>
+                                        <h4>High Grade Tools</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                                    </div>
+                                </Col>
+                                <Col sm={6}>
+                                    <div class="card-item fl-wrap">
+                                        <i class="fal fa-user-hard-hat"></i>
+                                        <span class="card-item_num">04.</span>
+                                        <h4>Professional workers</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                                    </div>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
+                </Container>
+            </section>
 
-                    <div className='text-center mt-3 mb-3'>
-                        <Link to="/clients" className='more-client-btn'>
-                            See More</Link>
+            <section className='product-sliders-padding'>
+                <Container className="container-padding">
+                    <Row>
+                        <Col sm={3} className="service-title">
+                            <h4>Our Products</h4>
+                        </Col>
+                        <Col sm={7}>
+                            <p className='our-pro-text'> With Esteemed Quality certifications from Water Quality and focus on Safety
+                                and Environment MAnagement Systems, vivid is committed to maintain the highest
+                                standards for Environment.</p>
+                        </Col>
+                        <Col sm={2}>
+                            <div className='se-more-m'><Link to="/clients" className='more-client-btn'>
+                                See More</Link></div>
+                        </Col>
+                    </Row>
+                    <div>
+                        <ProductSlider />
                     </div>
                 </Container>
             </section>
-            {/* end our product tabs section */}
 
+            {/* end our product tabs section */}
             <ClientSlider />
 
             <section className='blogs-section pt-4 pb-4'>
@@ -321,55 +253,12 @@ export default function Home() {
                             and Environment MAnagement Systems, vivid plastic is committed to maintain the highest
                             standards for Health, Saftey and Environment.</p>
                     </div>
-                    <Row>
-                        <Col sm={4}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
-                                    <div className="blog-text">
-                                        <h3>Lights winged seasons fish abundantly evening.</h3>
-                                        <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
-                                            Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                        <Link>Read More...</Link>
-                                    </div>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col sm={4}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
-                                    <div className="blog-text">
-                                        <h3>Lights winged seasons fish abundantly evening.</h3>
-                                        <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
-                                            Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                        <Link>Read More...</Link>
-                                    </div>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col sm={4}>
-                            <Link to="/">
-                                <div className="home-tab-product-card">
-                                    <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
-                                    <div className="blog-text">
-                                        <h3>Lights winged seasons fish abundantly evening.</h3>
-                                        <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
-                                            Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                        <Link>Read More...</Link>
-                                    </div>
-                                </div>
-                            </Link>
-                        </Col>
-                    </Row>
+                    <BlogSlider />
                 </Container>
             </section>
 
 
             {/* <ContactForm /> */}
-
-
-
         </div>
     );
 }
