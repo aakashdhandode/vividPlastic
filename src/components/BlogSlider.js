@@ -42,59 +42,125 @@ function BlogSlider() {
     return (
         <div>     <Container className='pro-slider-icons'>
             <Slider {...settings}>
-                <div className='blog-sliders'>
-                    <Link to="/">
+                {/* <div className='blog-sliders'>
+                    <Link to="/home">
                         <div className="home-tab-product-card">
                             <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
                             <div className="blog-text">
                                 <h3>Lights winged seasons fish abundantly evening.</h3>
                                 <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
                                     Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                <Link>Read More...</Link>
+                                <Link to="/home">Read More...</Link>
                             </div>
                         </div>
                     </Link>
                 </div>
                 <div className='blog-sliders'>
-                    <Link to="/">
+                    <Link to="/home">
                         <div className="home-tab-product-card">
                             <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
                             <div className="blog-text">
                                 <h3>Lights winged seasons fish abundantly evening.</h3>
                                 <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
                                     Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                <Link>Read More...</Link>
+                                <Link to="/home">Read More...</Link>
                             </div>
                         </div>
                     </Link>
                 </div>
                 <div className='blog-sliders'>
-                    <Link to="/">
+                    <Link to="/home">
                         <div className="home-tab-product-card">
                             <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
                             <div className="blog-text">
                                 <h3>Lights winged seasons fish abundantly evening.</h3>
                                 <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
                                     Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                <Link>Read More...</Link>
+                                <Link to="/home">Read More...</Link>
                             </div>
                         </div>
                     </Link>
                 </div>
                 <div className='blog-sliders'>
-                    <Link to="/">
+                    <Link to="/home">
                         <div className="home-tab-product-card">
                             <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
                             <div className="blog-text">
                                 <h3>Lights winged seasons fish abundantly evening.</h3>
                                 <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
                                     Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
-                                <Link>Read More...</Link>
+                                <Link to="/home">Read More...</Link>
+                            </div>
+                        </div>
+                    </Link>
+                </div> */}
+
+                <div className='blog-sliders'>
+                    <Link to="/home">
+                        <div className="home-tab-product-card">
+                            <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                            <div className="blog-text">
+                                <h3>Lights winged seasons fish abundantly evening.</h3>
+                                <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                    Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                <p className='blog-link'>Read More...</p>
                             </div>
                         </div>
                     </Link>
                 </div>
-                
+                <div className='blog-sliders'>
+                    <Link to="/home">
+                        <div className="home-tab-product-card">
+                            <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                            <div className="blog-text">
+                                <h3>Lights winged seasons fish abundantly evening.</h3>
+                                <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                    Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                <p className='blog-link'>Read More...</p>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className='blog-sliders'>
+                    <Link to="/home">
+                        <div className="home-tab-product-card">
+                            <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                            <div className="blog-text">
+                                <h3>Lights winged seasons fish abundantly evening.</h3>
+                                <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                    Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                <p className='blog-link'>Read More...</p>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className='blog-sliders'>
+                    <Link to="/home">
+                        <div className="home-tab-product-card">
+                            <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                            <div className="blog-text">
+                                <h3>Lights winged seasons fish abundantly evening.</h3>
+                                <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                    Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                <p className='blog-link'>Read More...</p>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className='blog-sliders'>
+                    <Link to="/home">
+                        <div className="home-tab-product-card">
+                            <Image src='https://rstheme.com/products/joomla/reobiz/images/blog5-1.jpg#joomlaImage://local-images/blog5-1.jpg?width=1200&height=670' className="img-fluid" />
+                            <div className="blog-text">
+                                <h3>Lights winged seasons fish abundantly evening.</h3>
+                                <p>Below are the original Latin passages We denounce with righteous indignation and dislike men who...
+                                    Below are the original Latin passages We denounce with righteous indignation and dislike men who...</p>
+                                <p className='blog-link'>Read More...</p>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+
             </Slider>
         </Container></div>
     )

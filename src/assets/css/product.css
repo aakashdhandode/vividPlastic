@@ -82,10 +82,10 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-.home-tab-product-card a{
+.blog-link{
     margin-top: 11px;
-    font-size: 13px;
-    color: #e11d07;
+    font-size: 13px!important;
+    color: #e11d07!important;
     letter-spacing: 0.3px;
     font-weight: 700;
 }

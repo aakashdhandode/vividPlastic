@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
 import { Col, Container, Row, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 
@@ -45,85 +46,85 @@ function ProductSlider() {
             <Container className='pro-slider-icons'>
                 <Slider {...settings}>
                     <div className='cases-standard'>
-                        <div class="case-item">
-                            <div class="case-item-warp">
-                                <div class="case-img">
+                        <div className="case-item">
+                            <div className="case-item-warp">
+                                <div className="case-img">
                                      <img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image"/>
                                 </div>
-                                <div class="case-content">
-                                    <div class="case-title">
+                                <div className="case-content">
+                                    <div className="case-title">
                                         <h4>Drug Delivery Solutions</h4>
                                     </div>
-                                    <div class="case-desc">
+                                    <div className="case-desc">
                                         <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
                                     </div>
-                                    <div class="case-more"><a href="case-study-single.html"><i class="fa fa-arrow-right"></i> explore case study</a></div>
+                                    <div className="case-more"><Link to="/home"><i className="fa fa-arrow-right"></i> explore case study</Link></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className='cases-standard'>
-                        <div class="case-item">
-                            <div class="case-item-warp">
-                                <div class="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
-                                <div class="case-content">
-                                    <div class="case-title">
+                        <div className="case-item">
+                            <div className="case-item-warp">
+                                <div className="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
+                                <div className="case-content">
+                                    <div className="case-title">
                                     <h4>Drug Delivery Solutions</h4>
                                     </div>
-                                    <div class="case-desc">
+                                    <div className="case-desc">
                                         <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
                                     </div>
-                                    <div class="case-more"><a href="case-study-single.html"><i class="fa fa-arrow-right"></i> explore case study</a></div>
+                                    <div className="case-more"><Link to="/home"><i className="fa fa-arrow-right"></i> explore case study</Link></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className='cases-standard'>
-                        <div class="case-item">
-                            <div class="case-item-warp">
-                                <div class="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
-                                <div class="case-content">
-                                    <div class="case-title">
+                        <div className="case-item">
+                            <div className="case-item-warp">
+                                <div className="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
+                                <div className="case-content">
+                                    <div className="case-title">
                                     <h4>Drug Delivery Solutions</h4>
                                     </div>
-                                    <div class="case-desc">
+                                    <div className="case-desc">
                                         <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
                                     </div>
-                                    <div class="case-more"><a href="case-study-single.html"><i class="fa fa-arrow-right"></i> explore case study</a></div>
+                                    <div className="case-more"><Link to="/home"><i className="fa fa-arrow-right"></i> explore case study</Link></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className='cases-standard'>
-                        <div class="case-item">
-                            <div class="case-item-warp">
-                                <div class="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
-                                <div class="case-content">
-                                    <div class="case-title">
+                        <div className="case-item">
+                            <div className="case-item-warp">
+                                <div className="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
+                                <div className="case-content">
+                                    <div className="case-title">
                                     <h4>Drug Delivery Solutions</h4>
                                     </div>
-                                    <div class="case-desc">
+                                    <div className="case-desc">
                                         <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
                                     </div>
-                                    <div class="case-more"><a href="case-study-single.html"><i class="fa fa-arrow-right"></i> explore case study</a></div>
+                                    <div className="case-more"><Link to="/home"><i className="fa fa-arrow-right"></i> explore case study</Link></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className='cases-standard'>
-                        <div class="case-item">
-                            <div class="case-item-warp">
-                                <div class="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
-                                <div class="case-content">
-                                    <div class="case-title">
+                        <div className="case-item">
+                            <div className="case-item-warp">
+                                <div className="case-img"><img src="https://demo.zytheme.com/equita/assets/images/work/full/3.jpg" alt="work Item Image" /></div>
+                                <div className="case-content">
+                                    <div className="case-title">
                                         <h4>Insulin</h4>
                                     </div>
-                                    <div class="case-desc">
+                                    <div className="case-desc">
                                         <p>Cost savings is crucial, innovative technology minimizes your overall spend by utilizing an schedule.</p>
                                     </div>
-                                    <div class="case-more"><a href="case-study-single.html"><i class="fa fa-arrow-right"></i> explore case study</a></div>
+                                    <div className="case-more"><Link to="/home"><i className="fa fa-arrow-right"></i> explore case study</Link></div>
                                 </div>
                             </div>
                         </div>
